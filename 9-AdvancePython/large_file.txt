@@ -1,0 +1,12 @@
+A declarative approach is a programming paradigm where you describe what the program should accomplish or what the end result should look like, rather than providing a step-by-step list of instructions on how to achieve it.
+
+In modern Android development, Jetpack Compose uses this approach to build UIs.
+
+Key Characteristics
+Focus on the Goal: You define the final state of the UI.
+
+Automatic Updates: When the underlying data (state) changes, the framework automatically updates the UI to match that new state.
+
+Statelessness: Composable functions describe the UI at any given point in time based on the arguments passed to them.
+
+Less Boilerplate: It eliminates the need to manually find views (like findViewById) or manually update them when data changes.
